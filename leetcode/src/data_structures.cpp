@@ -60,3 +60,21 @@ bool compareIntervals(const Interval &a, const Interval &b)
 	else
 		return false;
 }
+
+void prettyPrintTree(TreeNode * node, string prefix, bool isLeft)
+{
+	if (node == nullptr) {
+		cout << "Empty tree";
+		return;
+	}
+
+	if (node->right) {
+		prettyPrintTree(node->right, prefix + (isLeft ? "©¦   " : "    "), false);
+	}
+
+	cout << prefix + (isLeft ? "©¸©¤©¤ " : "©°©¤©¤ ") + to_string(node->val) + "\n";
+
+	if (node->left) {
+		prettyPrintTree(node->left, prefix + (isLeft ? "    " : "©¦   "), true);
+	}
+}

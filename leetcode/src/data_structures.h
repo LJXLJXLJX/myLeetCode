@@ -20,3 +20,13 @@ struct Interval {
 };
 
 bool compareIntervals(const Interval &a, const Interval &b);
+
+
+struct TreeNode {
+	int val;
+	TreeNode *left;
+	TreeNode *right;
+	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
+void prettyPrintTree(TreeNode* node, std::string prefix = "", bool isLeft = true);

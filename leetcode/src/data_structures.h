@@ -30,3 +30,9 @@ struct TreeNode {
 };
 
 void prettyPrintTree(TreeNode* node, std::string prefix = "", bool isLeft = true);
+
+void trimLeftTrailingSpaces(std::string &input);
+
+void trimRightTrailingSpaces(std::string &input);
+
+TreeNode* stringToTreeNode(std::string input);

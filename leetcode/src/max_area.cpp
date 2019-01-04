@@ -1,5 +1,7 @@
 #include "max_area.h"
 
+using namespace std;
+
 int maxArea(std::vector<int>& height)
 {
 	int left = 0;

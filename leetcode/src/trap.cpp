@@ -1,5 +1,7 @@
 #include "trap.h"
 
+using namespace std;
+
 int trap(std::vector<int>& height)
 {
 	int len = height.size();
@@ -14,7 +16,7 @@ int trap(std::vector<int>& height)
 		if (height[tail] >= height[head])
 		{
 			for (int i = head + 1; i < tail; i++)
-				water += max(0, (height[head] - height[i]));
+				water += std::max(0, (height[head] - height[i]));
 			head = tail;
 			max = 0;
 			maxIndex = 0;	//maxIndex和max都是局部的 当head移位时应当复位
@@ -34,7 +36,7 @@ int trap(std::vector<int>& height)
 				if (maxIndex > head)	//head都大于maxIndex了 就不能回去了
 					tail = maxIndex;
 				for (int i = head + 1; i < tail; i++)
-					water += max(0, (height[tail] - height[i]));
+					water += std::max(0, (height[tail] - height[i]));
 				head = tail;
 				max = 0;
 				maxIndex = 0;	//maxIndex和max都是局部的 当head移位时应当复位

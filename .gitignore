@@ -4,3 +4,5 @@ leetcode/Release/
 leetcode/x64/
 leetcode/leetcode/
 leetcode/*.sln
+leetcode/src/cmake-build-debug
+leetcode/src/.idea

@@ -25,7 +25,7 @@ int divide(int dividend, int divisor)
 		ds = originDs;
 		while (dd >= (ds << 1))
 		{
-			ds <<= 1;	//×óÒÆÒ»Î» Ïàµ±ÓÚ³ËÒÔ¶þ
+			ds <<= 1;	//ï¿½ï¿½ï¿½ï¿½Ò»Î» ï¿½àµ±ï¿½Ú³ï¿½ï¿½Ô¶ï¿½
 			offset++;
 		}
 		if (dd < ds)

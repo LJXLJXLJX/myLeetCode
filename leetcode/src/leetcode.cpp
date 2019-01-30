@@ -1,15 +1,13 @@
 
 #include <iostream>
-#include "flip_binary_tree_to_match_preorder_traversal.h"
+#include "string_without_AAA_or_BBB.h"
 using namespace std;
 
 
 
 void test()
 {
-    TreeNode* root= stringToTreeNode("[1,2]");
-    vector<int> voyage{2,1};
-    flipMatchVoyage(root,voyage);
+    cout<<strWithout3a3b(4,1)<<endl;
 }
 
 

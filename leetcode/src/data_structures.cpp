@@ -1,4 +1,4 @@
-#include "data_structures.h"
+ï»¿#include "data_structures.h"
 #include <sstream>
 
 using namespace std;
@@ -61,21 +61,20 @@ bool compareIntervals(const Interval &a, const Interval &b)
 		return false;
 }
 
-void prettyPrintTree(TreeNode * node, string prefix, bool isLeft)
-{
+void prettyPrintTree(TreeNode* node, string prefix, bool isLeft) {
 	if (node == nullptr) {
 		cout << "Empty tree";
 		return;
 	}
 
-	if (node->right) {
-		prettyPrintTree(node->right, prefix + (isLeft ? "©¦   " : "    "), false);
+	if(node->right) {
+		prettyPrintTree(node->right, prefix + (isLeft ? "â”‚   " : "    "), false);
 	}
 
-	cout << prefix + (isLeft ? "©¸©¤©¤ " : "©°©¤©¤ ") + to_string(node->val) + "\n";
+	cout << prefix + (isLeft ? "â””â”€â”€ " : "â”Œâ”€â”€ ") + to_string(node->val) + "\n";
 
 	if (node->left) {
-		prettyPrintTree(node->left, prefix + (isLeft ? "    " : "©¦   "), true);
+		prettyPrintTree(node->left, prefix + (isLeft ? "    " : "â”‚   "), true);
 	}
 }
 

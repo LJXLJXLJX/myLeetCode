@@ -26,7 +26,8 @@ struct TreeNode {
 	int val;
 	TreeNode *left;
 	TreeNode *right;
-	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+	TreeNode *next;
+	TreeNode(int x) : val(x), left(NULL), right(NULL), next(NULL) {}
 };
 
 void prettyPrintTree(TreeNode* node, std::string prefix = "", bool isLeft = true);

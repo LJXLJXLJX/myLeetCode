@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <ProjectGuid>{63AC1641-C598-4F80-A6B3-946A12BB16E3}</ProjectGuid>
+    <RootNamespace>leetcode</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="src\1003_is_valid.h" />
+    <ClInclude Include="src\115_distinct_subsequences.h" />
+    <ClInclude Include="src\116_populating_next_right_pointers_in_each_node.h" />
+    <ClInclude Include="src\117_populating_next_right_pointers_in_each_node_2.h" />
+    <ClInclude Include="src\118_pascals_triangle.h" />
+    <ClInclude Include="src\119_pascals_triangle_2.h" />
+    <ClInclude Include="src\120_triangle.h" />
+    <ClInclude Include="src\121_best_time_to_buy_and_sell_stock.h" />
+    <ClInclude Include="src\122_best_time_to_buy_and_sell_stock_2.h" />
+    <ClInclude Include="src\123_best_time_to_buy_and_sell_stock_3.h" />
+    <ClInclude Include="src\124_binary_tree_maximum_path_sum.h" />
+    <ClInclude Include="src\131_palindrome_partitioning.h" />
+    <ClInclude Include="src\add_binary.h" />
+    <ClInclude Include="src\add_two_numbers.h" />
+    <ClInclude Include="src\backspace_string_compare.h" />
+    <ClInclude Include="src\balanced_binary_tree.h" />
+    <ClInclude Include="src\binary_tree_cameras.h" />
+    <ClInclude Include="src\binary_tree_inorder_traversal.h" />
+    <ClInclude Include="src\binary_tree_level_order_traversal.h" />
+    <ClInclude Include="src\binary_tree_level_order_traversal_2.h" />
+    <ClInclude Include="src\binary_tree_zigzag_level_order_traversal.h" />
+    <ClInclude Include="src\can_jump.h" />
+    <ClInclude Include="src\can_place_flowers.h" />
+    <ClInclude Include="src\climbStairs.h" />
+    <ClInclude Include="src\coin_change_2.h" />
+    <ClInclude Include="src\combination_sum.h" />
+    <ClInclude Include="src\combination_sum2.h" />
+    <ClInclude Include="src\combine.h" />
+    <ClInclude Include="src\construct_binary_tree_from_inorder_and_postorder_traversal.h" />
+    <ClInclude Include="src\construct_binary_tree_from_preorder_and_inorder_traversal.h" />
+    <ClInclude Include="src\construct_string_from_binary_tree.h" />
+    <ClInclude Include="src\convert_sorted_array_to_binary_search_tree.h" />
+    <ClInclude Include="src\convert_sorted_list_to_binary_search_tree.h" />
+    <ClInclude Include="src\count_of_range_sum.h" />
+    <ClInclude Include="src\data_structures.h" />
+    <ClInclude Include="src\decode_ways.h" />
+    <ClInclude Include="src\divide.h" />
+    <ClInclude Include="src\excel_sheet_column_number.h" />
+    <ClInclude Include="src\exist.h" />
+    <ClInclude Include="src\expression_add_operators.h" />
+    <ClInclude Include="src\find_all_numbers_disappeared_in_an_array.h" />
+    <ClInclude Include="src\find_duplicate_file_in_system.h" />
+    <ClInclude Include="src\find_median_sorted_arrays.h" />
+    <ClInclude Include="src\find_substring.h" />
+    <ClInclude Include="src\find_the_duplicate_number.h" />
+    <ClInclude Include="src\first_missing_positive.h" />
+    <ClInclude Include="src\flatten_binary_tree_to_linked_list.h" />
+    <ClInclude Include="src\flip_binary_tree_to_match_preorder_traversal.h" />
+    <ClInclude Include="src\four_sum.h" />
+    <ClInclude Include="src\full_justify.h" />
+    <ClInclude Include="src\generate_matrix.h" />
+    <ClInclude Include="src\generate_parenthesis.h" />
+    <ClInclude Include="src\get_permutation.h" />
+    <ClInclude Include="src\gray_code.h" />
+    <ClInclude Include="src\group_anagrams.h" />
+    <ClInclude Include="src\heads.h" />
+    <ClInclude Include="src\insert.h" />
+    <ClInclude Include="src\interleaving_string.h" />
+    <ClInclude Include="src\int_to_roman.h" />
+    <ClInclude Include="src\isMatch.h" />
+    <ClInclude Include="src\isPalindrome.h" />
+    <ClInclude Include="src\is_match_2.h" />
+    <ClInclude Include="src\is_number.h" />
+    <ClInclude Include="src\is_valid.h" />
+    <ClInclude Include="src\is_valid_sudoku.h" />
+    <ClInclude Include="src\jump.h" />
+    <ClInclude Include="src\largest_number_at_least_twice_of_others.h" />
+    <ClInclude Include="src\largest_rectangle_in_histogram.h" />
+    <ClInclude Include="src\length_of_last_word.h" />
+    <ClInclude Include="src\length_of_longest_substring.h" />
+    <ClInclude Include="src\letter_combinations.h" />
+    <ClInclude Include="src\longest_common_prefix.h" />
+    <ClInclude Include="src\longest_palindrome.h" />
+    <ClInclude Include="src\longest_valid_parentheses.h" />
+    <ClInclude Include="src\maximalRectangle.h" />
+    <ClInclude Include="src\maximum_depth_of_binary_tree.h" />
+    <ClInclude Include="src\maximum_product_of_three_numbers.h" />
+    <ClInclude Include="src\max_area.h" />
+    <ClInclude Include="src\max_subarray.h" />
+    <ClInclude Include="src\merge.h" />
+    <ClInclude Include="src\merge_k_lists.h" />
+    <ClInclude Include="src\merge_sorted_array.h" />
+    <ClInclude Include="src\merge_two_lists.h" />
+    <ClInclude Include="src\minimum_depth_of_binary_tree.h" />
+    <ClInclude Include="src\minimum_number_of_refueling_stops.h" />
+    <ClInclude Include="src\min_distance.h" />
+    <ClInclude Include="src\min_path_sum.h" />
+    <ClInclude Include="src\min_window.h" />
+    <ClInclude Include="src\mutiply.h" />
+    <ClInclude Include="src\mysqrt.h" />
+    <ClInclude Include="src\my_atoi.h" />
+    <ClInclude Include="src\my_pow.h" />
+    <ClInclude Include="src\next_permutation.h" />
+    <ClInclude Include="src\online_stock_span.h" />
+    <ClInclude Include="src\partition_list.h" />
+    <ClInclude Include="src\path_sum.h" />
+    <ClInclude Include="src\path_sum_2.h" />
+    <ClInclude Include="src\path_sum_3.h" />
+    <ClInclude Include="src\permute.h" />
+    <ClInclude Include="src\permute_unique.h" />
+    <ClInclude Include="src\plus_one.h" />
+    <ClInclude Include="src\power_of_two.h" />
+    <ClInclude Include="src\recover_binary_search_tree.h" />
+    <ClInclude Include="src\remove_duplicates.h" />
+    <ClInclude Include="src\remove_duplicates2.h" />
+    <ClInclude Include="src\remove_duplicates_from_sorted_list.h" />
+    <ClInclude Include="src\remove_duplicates_from_sorted_list2.h" />
+    <ClInclude Include="src\remove_element.h" />
+    <ClInclude Include="src\remove_nth_from_end.h" />
+    <ClInclude Include="src\restore_ip_addresses.h" />
+    <ClInclude Include="src\reverse.h" />
+    <ClInclude Include="src\reverse_k_group.h" />
+    <ClInclude Include="src\reverse_linked_list_2.h" />
+    <ClInclude Include="src\reverse_string.h" />
+    <ClInclude Include="src\roman_to_int.h" />
+    <ClInclude Include="src\rotate.h" />
+    <ClInclude Include="src\rotate_right.h" />
+    <ClInclude Include="src\same_tree.h" />
+    <ClInclude Include="src\scramble_string.h" />
+    <ClInclude Include="src\search.h" />
+    <ClInclude Include="src\search2.h" />
+    <ClInclude Include="src\search_insert.h" />
+    <ClInclude Include="src\search_matrix.h" />
+    <ClInclude Include="src\search_range.h" />
+    <ClInclude Include="src\set_zeros.h" />
+    <ClInclude Include="src\simplify_path.h" />
+    <ClInclude Include="src\solve_n_queens.h" />
+    <ClInclude Include="src\solve_sudoku.h" />
+    <ClInclude Include="src\sort_colors.h" />
+    <ClInclude Include="src\spiral_order.h" />
+    <ClInclude Include="src\string_without_AAA_or_BBB.h" />
+    <ClInclude Include="src\str_str.h" />
+    <ClInclude Include="src\subsets.h" />
+    <ClInclude Include="src\subsets_2.h" />
+    <ClInclude Include="src\swap_pairs.h" />
+    <ClInclude Include="src\symmetric_tree.h" />
+    <ClInclude Include="src\three_sum.h" />
+    <ClInclude Include="src\three_sum_closest.h" />
+    <ClInclude Include="src\trap.h" />
+    <ClInclude Include="src\two_sum.h" />
+    <ClInclude Include="src\unique_binary_search_trees.h" />
+    <ClInclude Include="src\unique_binary_search_trees_2.h" />
+    <ClInclude Include="src\unique_email_addresses.h" />
+    <ClInclude Include="src\unique_letter_string.h" />
+    <ClInclude Include="src\unique_paths.h" />
+    <ClInclude Include="src\unique_paths_with_obstacles.h" />
+    <ClInclude Include="src\utils.h" />
+    <ClInclude Include="src\validate_binary_search_tree.h" />
+    <ClInclude Include="src\zigzag_convert.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\1003_is_valid.cpp" />
+    <ClCompile Include="src\115_distinct_subsequences.cpp" />
+    <ClCompile Include="src\116_populating_next_right_pointers_in_each_node.cpp" />
+    <ClCompile Include="src\117_populating_next_right_pointers_in_each_node_2.cpp" />
+    <ClCompile Include="src\118_pascals_triangle.cpp" />
+    <ClCompile Include="src\119_pascals_triangle_2.cpp" />
+    <ClCompile Include="src\120_triangle.cpp" />
+    <ClCompile Include="src\121_best_time_to_buy_and_sell_stock.cpp" />
+    <ClCompile Include="src\122_best_time_to_buy_and_sell_stock_2.cpp" />
+    <ClCompile Include="src\123_best_time_to_buy_and_sell_stock_3.cpp" />
+    <ClCompile Include="src\124_binary_tree_maximum_path_sum.cpp" />
+    <ClCompile Include="src\131_palindrome_partitioning.cpp" />
+    <ClCompile Include="src\add_binary.cpp" />
+    <ClCompile Include="src\add_two_numbers.cpp" />
+    <ClCompile Include="src\backspace_string_compare.cpp" />
+    <ClCompile Include="src\balanced_binary_tree.cpp" />
+    <ClCompile Include="src\binary_tree_cameras.cpp" />
+    <ClCompile Include="src\binary_tree_inorder_traversal.cpp" />
+    <ClCompile Include="src\binary_tree_level_order_traversal.cpp" />
+    <ClCompile Include="src\binary_tree_level_order_traversal_2.cpp" />
+    <ClCompile Include="src\binary_tree_zigzag_level_order_traversal.cpp" />
+    <ClCompile Include="src\can_jump.cpp" />
+    <ClCompile Include="src\can_place_flowers.cpp" />
+    <ClCompile Include="src\climbStairs.cpp" />
+    <ClCompile Include="src\coin_change_2.cpp" />
+    <ClCompile Include="src\combination_sum.cpp" />
+    <ClCompile Include="src\combination_sum2.cpp" />
+    <ClCompile Include="src\combine.cpp" />
+    <ClCompile Include="src\construct_binary_tree_from_inorder_and_postorder_traversal.cpp" />
+    <ClCompile Include="src\construct_binary_tree_from_preorder_and_inorder_traversal.cpp" />
+    <ClCompile Include="src\construct_string_from_binary_tree.cpp" />
+    <ClCompile Include="src\convert_sorted_array_to_binary_search_tree.cpp" />
+    <ClCompile Include="src\convert_sorted_list_to_binary_search_tree.cpp" />
+    <ClCompile Include="src\count_of_range_sum.cpp" />
+    <ClCompile Include="src\data_structures.cpp" />
+    <ClCompile Include="src\decode_ways.cpp" />
+    <ClCompile Include="src\divide.cpp" />
+    <ClCompile Include="src\excel_sheet_column_number.cpp" />
+    <ClCompile Include="src\exist.cpp" />
+    <ClCompile Include="src\expression_add_operators.cpp" />
+    <ClCompile Include="src\find_all_numbers_disappeared_in_an_array.cpp" />
+    <ClCompile Include="src\find_duplicate_file_in_system.cpp" />
+    <ClCompile Include="src\find_median_sorted_arrays.cpp" />
+    <ClCompile Include="src\find_substring.cpp" />
+    <ClCompile Include="src\find_the_duplicate_number.cpp" />
+    <ClCompile Include="src\first_missing_positive.cpp" />
+    <ClCompile Include="src\flatten_binary_tree_to_linked_list.cpp" />
+    <ClCompile Include="src\flip_binary_tree_to_match_preorder_traversal.cpp" />
+    <ClCompile Include="src\four_sum.cpp" />
+    <ClCompile Include="src\full_justify.cpp" />
+    <ClCompile Include="src\generate_matrix.cpp" />
+    <ClCompile Include="src\generate_parenthesis.cpp" />
+    <ClCompile Include="src\get_permutation.cpp" />
+    <ClCompile Include="src\gray_code.cpp" />
+    <ClCompile Include="src\group_anagrams.cpp" />
+    <ClCompile Include="src\insert.cpp" />
+    <ClCompile Include="src\interleaving_string.cpp" />
+    <ClCompile Include="src\int_to_roman.cpp" />
+    <ClCompile Include="src\isMatch.cpp" />
+    <ClCompile Include="src\isPalindrome.cpp" />
+    <ClCompile Include="src\is_match_2.cpp" />
+    <ClCompile Include="src\is_number.cpp" />
+    <ClCompile Include="src\is_valid.cpp" />
+    <ClCompile Include="src\is_valid_sudoku.cpp" />
+    <ClCompile Include="src\jump.cpp" />
+    <ClCompile Include="src\largest_number_at_least_twice_of_others.cpp" />
+    <ClCompile Include="src\largest_rectangle_in_histogram.cpp" />
+    <ClCompile Include="src\length_of_last_word.cpp" />
+    <ClCompile Include="src\length_of_longest_substring.cpp" />
+    <ClCompile Include="src\letter_combinations.cpp" />
+    <ClCompile Include="src\longest_common_prefix.cpp" />
+    <ClCompile Include="src\longest_palindrome.cpp" />
+    <ClCompile Include="src\longest_valid_parentheses.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\maximalRectangle.cpp" />
+    <ClCompile Include="src\maximum_depth_of_binary_tree.cpp" />
+    <ClCompile Include="src\maximum_product_of_three_numbers.cpp" />
+    <ClCompile Include="src\max_area.cpp" />
+    <ClCompile Include="src\max_subarray.cpp" />
+    <ClCompile Include="src\merge.cpp" />
+    <ClCompile Include="src\merge_k_lists.cpp" />
+    <ClCompile Include="src\merge_sorted_array.cpp" />
+    <ClCompile Include="src\merge_two_lists.cpp" />
+    <ClCompile Include="src\minimum_depth_of_binary_tree.cpp" />
+    <ClCompile Include="src\minimum_number_of_refueling_stops.cpp" />
+    <ClCompile Include="src\min_distance.cpp" />
+    <ClCompile Include="src\min_path_sum.cpp" />
+    <ClCompile Include="src\min_window.cpp" />
+    <ClCompile Include="src\mutiply.cpp" />
+    <ClCompile Include="src\mysqrt.cpp" />
+    <ClCompile Include="src\my_atoi.cpp" />
+    <ClCompile Include="src\my_pow.cpp" />
+    <ClCompile Include="src\next_permutation.cpp" />
+    <ClCompile Include="src\online_stock_span.cpp" />
+    <ClCompile Include="src\path_sum.cpp" />
+    <ClCompile Include="src\path_sum_2.cpp" />
+    <ClCompile Include="src\path_sum_3.cpp" />
+    <ClCompile Include="src\permute.cpp" />
+    <ClCompile Include="src\permute_unique.cpp" />
+    <ClCompile Include="src\plus_one.cpp" />
+    <ClCompile Include="src\power_of_two.cpp" />
+    <ClCompile Include="src\recover_binary_search_tree.cpp" />
+    <ClCompile Include="src\remove_duplicates.cpp" />
+    <ClCompile Include="src\remove_duplicates2.cpp" />
+    <ClCompile Include="src\remove_duplicates_from_sorted_list.cpp" />
+    <ClCompile Include="src\remove_duplicates_from_sorted_list2.cpp" />
+    <ClCompile Include="src\remove_element.cpp" />
+    <ClCompile Include="src\remove_nth_from_end.cpp" />
+    <ClCompile Include="src\restore_ip_addresses.cpp" />
+    <ClCompile Include="src\reverse.cpp" />
+    <ClCompile Include="src\reverse_k_group.cpp" />
+    <ClCompile Include="src\reverse_linked_list_2.cpp" />
+    <ClCompile Include="src\reverse_string.cpp" />
+    <ClCompile Include="src\roman_to_int.cpp" />
+    <ClCompile Include="src\rotate.cpp" />
+    <ClCompile Include="src\rotate_right.cpp" />
+    <ClCompile Include="src\same_tree.cpp" />
+    <ClCompile Include="src\scramble_string.cpp" />
+    <ClCompile Include="src\search.cpp" />
+    <ClCompile Include="src\search2.cpp" />
+    <ClCompile Include="src\search_insert.cpp" />
+    <ClCompile Include="src\search_matrix.cpp" />
+    <ClCompile Include="src\search_range.cpp" />
+    <ClCompile Include="src\set_zeros.cpp" />
+    <ClCompile Include="src\simplify_path.cpp" />
+    <ClCompile Include="src\solve_n_queens.cpp" />
+    <ClCompile Include="src\solve_sudoku.cpp" />
+    <ClCompile Include="src\sort_colors.cpp" />
+    <ClCompile Include="src\spiral_order.cpp" />
+    <ClCompile Include="src\string_without_AAA_or_BBB.cpp" />
+    <ClCompile Include="src\subsets.cpp" />
+    <ClCompile Include="src\subsets_2.cpp" />
+    <ClCompile Include="src\swap_pairs.cpp" />
+    <ClCompile Include="src\symmetric_tree.cpp" />
+    <ClCompile Include="src\three_sum.cpp" />
+    <ClCompile Include="src\three_sum_closest.cpp" />
+    <ClCompile Include="src\trap.cpp" />
+    <ClCompile Include="src\two_sum.cpp" />
+    <ClCompile Include="src\unique_binary_search_trees.cpp" />
+    <ClCompile Include="src\unique_binary_search_trees_2.cpp" />
+    <ClCompile Include="src\unique_email_addresses.cpp" />
+    <ClCompile Include="src\unique_letter_string.cpp" />
+    <ClCompile Include="src\unique_paths.cpp" />
+    <ClCompile Include="src\unique_paths_with_obstacles.cpp" />
+    <ClCompile Include="src\utils.cpp" />
+    <ClCompile Include="src\validate_binary_search_tree.cpp" />
+    <ClCompile Include="src\zigzag_convert.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

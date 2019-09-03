@@ -1,0 +1,909 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\115_distinct_subsequences.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\116_populating_next_right_pointers_in_each_node.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\118_pascals_triangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\119_pascals_triangle_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\120_triangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\121_best_time_to_buy_and_sell_stock.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\122_best_time_to_buy_and_sell_stock_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\123_best_time_to_buy_and_sell_stock_3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\131_palindrome_partitioning.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\1003_is_valid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\add_binary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\add_two_numbers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\backspace_string_compare.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\balanced_binary_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\binary_tree_cameras.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\binary_tree_inorder_traversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\binary_tree_level_order_traversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\binary_tree_level_order_traversal_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\binary_tree_zigzag_level_order_traversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\can_jump.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\can_place_flowers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\climbStairs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\coin_change_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\combination_sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\combination_sum2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\combine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\construct_binary_tree_from_inorder_and_postorder_traversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\construct_binary_tree_from_preorder_and_inorder_traversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\construct_string_from_binary_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\convert_sorted_array_to_binary_search_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\convert_sorted_list_to_binary_search_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\count_of_range_sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\data_structures.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\decode_ways.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\divide.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\excel_sheet_column_number.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\exist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\expression_add_operators.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\find_all_numbers_disappeared_in_an_array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\find_duplicate_file_in_system.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\find_median_sorted_arrays.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\find_substring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\find_the_duplicate_number.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\first_missing_positive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flatten_binary_tree_to_linked_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\flip_binary_tree_to_match_preorder_traversal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\four_sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\full_justify.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\generate_matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\generate_parenthesis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\get_permutation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\gray_code.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\group_anagrams.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\heads.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\insert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\int_to_roman.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\interleaving_string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\is_match_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\is_number.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\is_valid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\is_valid_sudoku.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\isMatch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\isPalindrome.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\jump.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\largest_number_at_least_twice_of_others.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\largest_rectangle_in_histogram.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\length_of_last_word.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\length_of_longest_substring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\letter_combinations.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\longest_common_prefix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\longest_palindrome.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\longest_valid_parentheses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\max_area.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\max_subarray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\maximalRectangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\maximum_depth_of_binary_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\maximum_product_of_three_numbers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\merge.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\merge_k_lists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\merge_sorted_array.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\merge_two_lists.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\min_distance.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\min_path_sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\min_window.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minimum_depth_of_binary_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minimum_number_of_refueling_stops.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mutiply.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\my_atoi.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\my_pow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\mysqrt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\next_permutation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\online_stock_span.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\partition_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\path_sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\path_sum_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\path_sum_3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\permute.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\permute_unique.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plus_one.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\power_of_two.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\recover_binary_search_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\remove_duplicates.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\remove_duplicates_from_sorted_list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\remove_duplicates_from_sorted_list2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\remove_duplicates2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\remove_element.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\remove_nth_from_end.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\restore_ip_addresses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reverse.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reverse_k_group.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reverse_linked_list_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\reverse_string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\roman_to_int.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rotate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\rotate_right.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\same_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scramble_string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\search.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\search_insert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\search_matrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\search_range.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\search2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\set_zeros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\simplify_path.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\solve_n_queens.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\solve_sudoku.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sort_colors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\spiral_order.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\str_str.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\string_without_AAA_or_BBB.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\subsets.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\subsets_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\swap_pairs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\symmetric_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\three_sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\three_sum_closest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\trap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\two_sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\unique_binary_search_trees.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\unique_binary_search_trees_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\unique_email_addresses.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\unique_letter_string.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\unique_paths.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\unique_paths_with_obstacles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\validate_binary_search_tree.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\zigzag_convert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\124_binary_tree_maximum_path_sum.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\117_populating_next_right_pointers_in_each_node_2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\115_distinct_subsequences.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\116_populating_next_right_pointers_in_each_node.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\118_pascals_triangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\119_pascals_triangle_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\120_triangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\121_best_time_to_buy_and_sell_stock.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\122_best_time_to_buy_and_sell_stock_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\123_best_time_to_buy_and_sell_stock_3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\131_palindrome_partitioning.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\1003_is_valid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\add_binary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\add_two_numbers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\backspace_string_compare.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\balanced_binary_tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\binary_tree_cameras.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\binary_tree_inorder_traversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\binary_tree_level_order_traversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\binary_tree_level_order_traversal_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\binary_tree_zigzag_level_order_traversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\can_jump.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\can_place_flowers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\climbStairs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\coin_change_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\combination_sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\combination_sum2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\combine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\construct_binary_tree_from_inorder_and_postorder_traversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\construct_binary_tree_from_preorder_and_inorder_traversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\construct_string_from_binary_tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\convert_sorted_array_to_binary_search_tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\convert_sorted_list_to_binary_search_tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\count_of_range_sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\data_structures.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\decode_ways.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\divide.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\excel_sheet_column_number.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\exist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\expression_add_operators.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\find_all_numbers_disappeared_in_an_array.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\find_duplicate_file_in_system.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\find_median_sorted_arrays.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\find_substring.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\find_the_duplicate_number.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\first_missing_positive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flatten_binary_tree_to_linked_list.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\flip_binary_tree_to_match_preorder_traversal.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\four_sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\full_justify.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\generate_matrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\generate_parenthesis.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\get_permutation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\gray_code.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\group_anagrams.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\insert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\int_to_roman.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\interleaving_string.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\is_match_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\is_number.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\is_valid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\is_valid_sudoku.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\isMatch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\isPalindrome.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\jump.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\largest_number_at_least_twice_of_others.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\largest_rectangle_in_histogram.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\length_of_last_word.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\length_of_longest_substring.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\letter_combinations.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\longest_common_prefix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\longest_palindrome.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\longest_valid_parentheses.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\max_area.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\max_subarray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maximalRectangle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maximum_depth_of_binary_tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\maximum_product_of_three_numbers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\merge.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\merge_k_lists.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\merge_sorted_array.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\merge_two_lists.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\min_distance.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\min_path_sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\min_window.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minimum_depth_of_binary_tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minimum_number_of_refueling_stops.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mutiply.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\my_atoi.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\my_pow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\mysqrt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\next_permutation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\online_stock_span.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\path_sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\path_sum_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\path_sum_3.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\permute.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\permute_unique.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plus_one.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\power_of_two.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\recover_binary_search_tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\remove_duplicates.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\remove_duplicates_from_sorted_list.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\remove_duplicates_from_sorted_list2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\remove_duplicates2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\remove_element.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\remove_nth_from_end.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\restore_ip_addresses.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reverse.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reverse_k_group.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reverse_linked_list_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\reverse_string.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\roman_to_int.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rotate.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\rotate_right.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\same_tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scramble_string.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\search.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\search_insert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\search_matrix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\search_range.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\search2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\set_zeros.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\simplify_path.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\solve_n_queens.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\solve_sudoku.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sort_colors.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\spiral_order.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\string_without_AAA_or_BBB.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\subsets.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\subsets_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\swap_pairs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\symmetric_tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\three_sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\three_sum_closest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\trap.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\two_sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\unique_binary_search_trees.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\unique_binary_search_trees_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\unique_email_addresses.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\unique_letter_string.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\unique_paths.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\unique_paths_with_obstacles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\validate_binary_search_tree.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\zigzag_convert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\124_binary_tree_maximum_path_sum.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\117_populating_next_right_pointers_in_each_node_2.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
